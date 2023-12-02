@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/static/js/main.dc67fb95.js",
+    "static/media/U2.jpg": "/static/media/U2.aa753254a204a1859229.jpg",
+    "static/media/U1.jpg": "/static/media/U1.242168c75c284cf4e07f.jpg",
+    "index.html": "/index.html",
+    "main.dc67fb95.js.map": "/static/js/main.dc67fb95.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.dc67fb95.js"
+  ]
+}
