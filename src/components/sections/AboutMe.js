@@ -21,15 +21,6 @@ function AboutMe() {
         </p>
         <div className="subtitle is-5 has-text-white has-text-weight-light summary-text" dangerouslySetInnerHTML={{__html: Resume.basics.summary}}>
         </div>
-        <div className="container interests">
-          <div className="field is-grouped is-grouped-multiline has-text-centered">
-            {Resume.interests.map((value, index) => {
-              return (
-                <Badge key={index} text={value.name} faIcon={value.x_icon} />
-              );
-            })}
-          </div>
-        </div>
       </div>
     </section>
   );

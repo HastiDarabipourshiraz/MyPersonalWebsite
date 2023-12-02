@@ -7,13 +7,9 @@ html {
 }
 .skill-list > li{
     margin: 30px 0 0 0;
+    color: #492c7f;;
 }
-.has-bg-image {
-    background-image: url('../images/cover10.webp'), url('../images/cover10.JPG');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
+
 .bulma-image {
     width: 200px;
 }
@@ -37,6 +33,7 @@ html {
 }
 .skill-icon {
     padding: 20px;
+    color: #492c7f;
 }
 
 .title a {

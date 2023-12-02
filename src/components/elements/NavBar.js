@@ -19,9 +19,7 @@ class NavBar extends React.Component {
       <nav className="navbar is-transparent">
         <div className="container">
           <div className="navbar-brand">
-            <a href="/" className="navbar-item title is-unselectable my-name">
-              {Resume.basics.name}
-            </a>
+            <img width= "50 px" height="30 px" src="images/LOGO.png"></img>
             <span
               className="navbar-burger burger"
               onClick={this.handleMenuClick}
@@ -40,9 +38,8 @@ class NavBar extends React.Component {
             <div className="navbar-end" onClick={this.handleMenuClick}>
               <MenuItem text="About Me" href="#aboutMe" />
               <MenuItem text="Skills" href="#skills" />
-              <MenuItem text="Certifications" href="#certifications" />
-              <MenuItem text="Experience" href="#experience" />
-              <MenuItem text="Articles" href="#articles" />
+              <MenuItem text="Education" href="#experience" />
+              <MenuItem text="Projects" href="#articles" />
             </div>
           </div>
         </div>
